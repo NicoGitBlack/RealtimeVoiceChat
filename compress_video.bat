@@ -12,7 +12,7 @@ echo Compression de : %INPUT%
 echo Sortie         : %OUTPUT%
 echo.
 
-ffmpeg -i "%INPUT%" -vcodec libx264 -crf 28 -preset slow -tune stillimage -acodec aac -b:a 64k "%OUTPUT%"
+C:\tmp\ffmeg.exe -i "%INPUT%" -vcodec libx264 -crf 28 -preset slow -tune stillimage -acodec aac -b:a 64k "%OUTPUT%"
 
 echo.
 echo Termine ! Fichier cree : %OUTPUT%
